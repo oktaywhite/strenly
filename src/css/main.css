@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Bigail";
-    src: url("/src/assets//fonts//bigail.woff2") format("woff2");
+    src: url("../assets//fonts//bigail.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Coolvetica";
-    src: url("/src/assets/fonts/coolvetica.woff2") format("woff2");
+    src: url("../assets/fonts/coolvetica.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
