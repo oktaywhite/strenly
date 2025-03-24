@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Bigail";
+    src: url("/src/assets//fonts//bigail.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url("/src/assets/fonts/coolvetica.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bigail {
+    font-family: "Bigail", sans-serif;
+}
+
+.coolvetica {
+    font-family: "Coolvetica", sans-serif;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0.2; }
+    40% { opacity: 1; }
+    50% { opacity: 1; }
+    100% { opacity: 0.2; }
+}
+
+.fade {
+    font-weight: bold;
+    color: white;
+    animation: fadeInOut 2s infinite ease-in-out;
+}
