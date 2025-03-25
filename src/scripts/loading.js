@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/strenly/service-worker.js').then((registration) => {
+  navigator.serviceWorker.register('/service-worker.js').then((registration) => {
     console.log('Service Worker başarılı bir şekilde kaydedildi:', registration);
 
     registration.onupdatefound = () => {
