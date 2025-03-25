@@ -2,7 +2,7 @@
     "name": "Strenly",
     "short_name": "Strenly",
     "description": "Gym Tracker App",
-    "start_url": ".",
+    "start_url": "/index.html",
     "display": "fullscreen",
     "background_color": "#050505",
     "theme_color": "#050505",
