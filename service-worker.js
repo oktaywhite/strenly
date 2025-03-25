@@ -5,12 +5,12 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll([
-        '/',
-        '/index.html',
-        '/src/assets/icons/icon-192x192.png',
-        '/src/assets/icons/icon-512x512.png',
-        '/src/css/main.css',
-        '/src/scripts/loading.js',
+        '/strenly/',
+        '/strenly/index.html',
+        '/strenly/src/assets/icons/icon-192x192.png',
+        '/strenly/src/assets/icons/icon-512x512.png',
+        '/strenly/src/css/main.css',
+        '/strenly/src/scripts/loading.js',
       ]);
     })
   );
