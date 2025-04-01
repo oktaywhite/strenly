@@ -24,8 +24,33 @@
   </div>
 
   <!-- main screen -->
-  <div id="content" class="hidden text-center mt-20">
-    <h1 class="text-2xl text-gray-800 coolvetica">Sayfa Yüklendi 🚀</h1>
+  <div id="content" class="text-center min-h-screen flex flex-col justify-center items-center">
+    <div class="logo flex gap-7">
+      <img src="src/assets/dark-logo.svg" alt="Strenly Logo" width="90">
+      <h1 class="text-white flex flex-col justify-center bigail text-4xl tracking-[2px]">Strenly <span
+          class="text-left text-3xl">Tracker</span></h1>
+    </div>
+    <p class="text-[#BBBBBB] coolvetica font-extralight w-[50%] text-[1.05rem] mt-[40px]">Unleash your potential through movement</p>
+
+    <div class="log-in-screen mt-[80px]">
+      <p class="text-[#DFDEDE] coolvetica font-extralight text-[1.05rem]">Do you have account?</p>
+      <div class="buttons coolvetica flex flex-col gap-4 mt-[20px]">
+        <button class="bg-[#161616] text-white p-3 px-20 rounded-[4px] text-xl tracking-[0.65px] hover:bg-[#1d1d1d] transition duration-300 cursor-pointer">Sign In</button>
+        <button class="bg-[#2CCF4F] text-[#090909] p-3 px-20 rounded-[4px] text-xl tracking-[0.65px] hover:bg-[#38E55D] transition duration-300 cursor-pointer">Sign Up</button>
+      </div>
+
+      <div class="social-log-in flex justify-center gap-4 mt-[30px]">
+        <button class="bg-white p-2 rounded-[6px] border-solid border-[#fff] border-[1px] cursor-pointer">
+          <img src="src/assets/icons/google-icon.svg" width="30px" alt="Google">
+        </button>
+        <button class="bg-black p-2 rounded-[6px] border-solid border-[#fff] border-[1px] cursor-pointer">
+          <img src="src/assets/icons/apple-icon.svg" width="30px" alt="Apple">
+        </button> 
+        <button class="bg-[#1877F2] p-2 rounded-[6px] border-solid border-[#fff] border-[1px] cursor-pointer">
+          <img src="src/assets/icons/facebook-icon.svg" width="30px" alt="Facebook">
+        </button>
+      </div>
+    </div>
   </div>
 
   <script src="src/scripts/loading.js"></script>
