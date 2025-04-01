@@ -1,4 +1,4 @@
-const CACHE_NAME = "my-cache-v6"; // 🔥 Yeni bir versiyon numarası belirle
+const CACHE_NAME = "my-cache-v9"; // 🔥 Yeni bir versiyon numarası belirle
 
 self.addEventListener("install", (event) => {
   self.skipWaiting(); // Yeni worker hemen aktif olsun
