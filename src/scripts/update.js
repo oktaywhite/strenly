@@ -1,5 +1,5 @@
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/strenly/service-worker.js").then((registration) => {
+  navigator.serviceWorker.register("/src/scripts/service-worker.js").then((registration) => {
     console.log("✅ Service Worker kayıt edildi.");
 
     navigator.serviceWorker.addEventListener("message", (event) => {
