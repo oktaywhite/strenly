@@ -1,4 +1,4 @@
-const CACHE_NAME = 'my-cache-v4';  // Her değişiklikte sürümü değiştir
+const CACHE_NAME = 'my-cache-v5';  // Her değişiklikte sürümü değiştir
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();  // Yeni worker hemen aktif olsun
